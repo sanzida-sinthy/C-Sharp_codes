@@ -1,0 +1,66 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Define the angle in radians (60 degrees)
+        double angle = Math.PI / 3;
+
+        // Calculate the cosine of the angle
+        double cosineValue = Math.Cos(angle);
+
+        // Display the result
+        Console.WriteLine("Cosine of 60 degrees is " + cosineValue);
+
+//absolute value
+double value = -42.5;
+double absoluteValue = Math.Abs(value);
+Console.WriteLine("Absolute value of " + value + " is " + absoluteValue);
+
+
+//calculate the power
+double baseNumber = 3.0;
+double exponent = 4.0;
+double powerResult = Math.Pow(exponent , baseNumber);
+Console.WriteLine(exponent + "  to the power of " + baseNumber + " is " + powerResult);
+
+
+
+//round number
+double numbers = 5.67;
+double roundedNumber = Math.Round(numbers);
+Console.WriteLine("Rounded value of " + numbers + " is " + roundedNumber);
+
+
+
+int number1 = 10;
+int number2 = 20;
+int number3 = 15;
+int number4 = 25;
+
+// Find the maximum of the first two numbers
+int max1 = Math.Max(number1, number2);
+
+// Find the maximum of the next two numbers
+int max2 = Math.Max(number3, number4);
+
+// Find the maximum of the previous two results
+int maxNumber = Math.Max(max1, max2);
+
+Console.WriteLine("The maximum of " + number1 + ", " + number2 + ", " + number3 + ", and " + number4 + " is " + maxNumber);
+
+
+//floor number
+double number = 7.89;
+double floorValue = Math.Floor(number);
+Console.WriteLine("Floor value of " + number + " is " + floorValue);
+
+
+
+int num1 = 10;
+int num2 = 20;
+int minNumber = Math.Min(num1, num2);
+Console.WriteLine("The minimum of " + num1 + " and " + num2 + " is " + minNumber);
+    }
+}
