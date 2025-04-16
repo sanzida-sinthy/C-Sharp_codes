@@ -1,0 +1,21 @@
+using System;
+class CapitalLetter{
+    public static void Main(string[]arg){
+char letter;
+Console.WriteLine("Enter the charecter :");
+letter = Convert.ToChar(Console.ReadLine());
+
+if (letter>='A' || letter<='z'){
+
+    Console.WriteLine($"{letter} is chapital letter ");
+}
+else if(letter>='a' && letter <='z')
+{
+    Console.WriteLine($"{letter} is small letter");
+}
+else{
+    Console.WriteLine("{0} is not a alphabet ",letter);
+}
+    }
+}
+
