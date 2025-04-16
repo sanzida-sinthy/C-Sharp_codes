@@ -1,0 +1,16 @@
+using System;
+class Text{
+    public static void Main(string[]arg){
+        string[] names = {"sanzida","sultana","sinthy","sathi"};
+
+        //for(int i = 0;i<3;i++)
+        for (int i=0 ; i< names.Length;i++)
+        {
+Console.WriteLine(names[i]);
+        }
+        Console.WriteLine("\n");
+        foreach(string name in names){
+            Console.WriteLine(name);
+        }
+    }
+}
