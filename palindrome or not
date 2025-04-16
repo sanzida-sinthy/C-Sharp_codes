@@ -1,0 +1,38 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Enter a string: ");
+        string input = Console.ReadLine();
+
+        string cleanedInput = input.Replace(" ", "").ToLower();
+
+        if (IsPalindrome(cleanedInput))
+        {
+            Console.WriteLine($"\"{input}\" is a palindrome.");
+        }
+        else
+        {
+            Console.WriteLine($"\"{input}\" is not a palindrome.");
+        }
+    }
+
+    static bool IsPalindrome(string str)
+    {
+        int start = 0;
+        int end = str.Length - 1;
+
+        while (start < end)
+        {
+            if (str[start] != str[end])
+            {
+                return false;
+            }
+            start++;
+            end--;
+        }
+        return true;
+    }
+}
