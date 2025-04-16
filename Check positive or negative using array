@@ -1,0 +1,20 @@
+using System;
+
+class Text
+{
+    public static void Main(string[] args)
+    {
+        // Define an array of integers
+        int[] numbers = { -11, 23, 67, -87, 98, 43, -65 };
+
+        foreach(int number in numbers)
+        {
+            if(number>0)
+            {
+        Console.WriteLine(number);
+
+            }
+        }
+    }
+}
+
