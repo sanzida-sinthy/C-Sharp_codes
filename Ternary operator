@@ -1,0 +1,15 @@
+using System;
+class TernaryOperator{
+public static void Main(string[]arg){
+int a = 10;
+int b = 20;
+int result = a<b ? 6 : 8;
+        Console.WriteLine($"{result}");
+
+int res = a>b ? 6 : 8;
+        Console.WriteLine($"{res}");
+
+
+}
+
+}
