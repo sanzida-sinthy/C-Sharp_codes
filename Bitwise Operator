@@ -1,0 +1,22 @@
+using System;
+class BitwiseOperator{
+    public static void Main(){
+        int a =10 ;
+        int b = 5;
+        int result;
+
+        result = a & b;
+        Console.WriteLine($"{a} & {b} = {result}");
+        
+result = a|b;
+        Console.WriteLine($"{a} | {b} = {result}");
+result = a^b;
+        Console.WriteLine($"{a} ^ {b} = {result}");
+result = a>>2;
+        Console.WriteLine($" {result}");
+        result = 3<<2;
+                Console.WriteLine($"{result}");
+
+
+    }
+}
