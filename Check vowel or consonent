@@ -1,0 +1,16 @@
+using System;
+using System.Runtime.CompilerServices;
+class VowelConsonet{
+    public static void Main(string[]arg){
+char a;
+Console.WriteLine("Enter the aphabet :");
+a = Convert.ToChar(Console.ReadLine());
+a= char.ToLower(a);
+if (a=='a' || a== 'e' || a=='i' || a=='o'||a== 'u'){
+Console.WriteLine("{0} is an vowel",a);
+}
+else {
+    Console.WriteLine("{0} is a consonant ",a );
+}
+    }
+}
